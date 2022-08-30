@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "DynaPuff";
+    src: url(../fonts/DynaPuff-VariableFont_wdth,wght.ttf);
+}
+
+*{margin:0; padding:0; box-sizing:border-box; }  
+
+html{
+    font-size: 62.5%;
+}
+
+div{
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.divheader {
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+h1{
+    font-family: 'DynaPuff', cursive;
+    font-size: xx-large;
+}
+
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-left: 2rem;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin-left: 2rem;
+    margin: 0rem 0rem 0rem 2rem;
+}
+
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-family: 'DynaPuff', cursive;
+      font-size: medium;
+}
+            
+nav li{
+      display:inline-block;
+      width:15rem;
+      height:3rem;
+      padding: 0.5rem 1rem;
+      background-color: rgb(52, 155, 219);
+      text-align:center;
+      color: white  ;
+      position:relative;
+}
+            
+nav li:hover{
+    color:#000;
+}
+            
+nav li>ul{
+    display:none;
+}
+
+nav li:hover>ul{
+    display:block;
+    position:absolute;
+    top:3rem;
+    left:0px;
+}
+
+.resumen{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    padding-left: 20px;
+    width: 400%;
+    text-align: left;
+    float: left;
+}
+
+.divFooter{
+    float: left;
+    width: 90%;
+    height: 6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.txtFooter{
+    font-family: 'Lucida Sans';
+    color: white;
+    float: none;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 209px;
+    height: 140px;
+}
+
+.imglrg{
+    width: 280px;
+    height: auto;
+}
+
+.imgpls{
+    width: 260px;
+    height: auto;
+    margin-top: 100px;
+}
+
+.div-form{
+    text-align: left;
+    margin: auto;
+    font-size: large;
+    width: 500px;
+    background-color: white;
+    border: 2px solid blue;
+    padding: 0px 10px;
+}
+
+input[type=submit]{
+    background-color: rgb(52, 155, 219);
+    width: 90%;
+    font-size: large;
+}
+
+input[type=text], [type=email]{
+    width: 60%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .flex-container > div {
+    margin: 1rem;
+    font-size: 3rem;
+    width: 30%;
+  }
+  
