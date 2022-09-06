@@ -3,13 +3,13 @@
     src: url(../fonts/DynaPuff-VariableFont_wdth,wght.ttf);
 }
 
-*{margin:0; padding:0; box-sizing:border-box; }  
+*{ margin:0; padding:0; box-sizing:border-box; }  
 
-html{
+html {
     font-size: 62.5%;
 }
 
-div{
+div {
     text-align: center;
     margin-left: 1rem;
 }
@@ -23,32 +23,32 @@ div{
     /* position: fixed; */
 }
 
-h1{
+h1 {
     font-family: 'DynaPuff', cursive;
     font-size: xx-large;
 }
 
-h2{
+h2 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
     margin-left: 2rem;
 }
 
-p{
+p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
     margin-left: 1rem;
     margin: 0rem 0rem 1rem 2rem;
 }
 
-nav a{
+nav a {
       text-decoration:none;
       color:inherit;
       font-family: 'DynaPuff', cursive;
       font-size: medium;
 }
             
-nav li{
+nav li {
       display:inline-block;
       width:15rem;
       height:3rem;
@@ -59,22 +59,22 @@ nav li{
       position:relative;
 }
             
-nav li:hover{
+nav li:hover {
     color:#000;
 }
             
-nav li>ul{
+nav li > ul {
     display:none;
 }
 
-nav li:hover>ul{
+nav li:hover > ul {
     display:block;
     position:absolute;
     top:3rem;
     left:0px;
 }
 
-.resumen{
+.resumen {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
     /* padding-left: 10px; */
@@ -83,7 +83,7 @@ nav li:hover>ul{
     float: left;
 }
 
-.divFooter{
+.divFooter {
     float: auto;
     width: 90%;
     height: 70px;
@@ -94,29 +94,29 @@ nav li:hover>ul{
     padding-bottom: 10px;
 }
 
-.txtFooter{
+.txtFooter {
     color: white;
     padding: 5px 0 5px 0;
     /* padding-bottom: 10px; */
 }
 
-img{
+img {
     width: 209px;
     height: 140px;
 }
 
-.imglrg{
+.imglrg {
     width: 300px;
     height: auto;
 }
 
-.imgpls{
+.imgpls {
     width: 22vw;
     height: auto;
     margin-top: 100px;
 }
 
-.div-form{
+.div-form {
     text-align: left;
     margin: auto;
     font-size: large;
@@ -126,13 +126,13 @@ img{
     padding: 0px 10px;
 }
 
-input[type=submit]{
+input[type=submit] {
     background-color: rgb(52, 155, 219);
     width: 90%;
     font-size: large;
 }
 
-input[type=text], [type=email]{
+input[type=text], [type=email] {
     width: 60%;
 }
 
