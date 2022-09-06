@@ -74,6 +74,15 @@ nav li:hover>ul{
     left:0px;
 }
 
+.resumen{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    /* padding-left: 10px; */
+    width: 400%;
+    text-align: left;
+    float: left;
+}
+
 .divFooter{
     float: auto;
     width: 90%;
@@ -130,18 +139,18 @@ input[type=text], [type=email]{
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-  }
+    width: 100%;
+    text-align: center;
+}
   
-  .flex-container > div {
+  /* .flex-container > div {
     margin: 1rem;
     font-size: 3rem;
-    width: 30%;
+    width: 28%;
     text-align: left;
   }
+   */
 
-  .flex-container > div > img {
-    width: 100%;
-    height: auto;
-  }
-  
+.flex-item {
+    width: 28%;
+}
