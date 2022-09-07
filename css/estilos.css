@@ -152,5 +152,6 @@ input[type=text], [type=email]{
    */
 
 .flex-item {
-    width: 28%;
+    width: 30%;
+    border: 1px solid black;
 }
