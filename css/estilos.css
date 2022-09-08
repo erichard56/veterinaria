@@ -37,7 +37,6 @@ h2{
 p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
-    /* margin-left: 1rem; */
     margin: 0rem 0rem 1rem 1rem;
 }
 
@@ -77,7 +76,6 @@ nav li:hover>ul{
 .resumen{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
-    /* padding-left: 10px; */
     width: 400%;
     text-align: left;
     float: left;
@@ -85,7 +83,6 @@ nav li:hover>ul{
 
 .divFooter{
     float: auto;
-    /* width: 90%; */
     height: 70px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
@@ -143,15 +140,6 @@ input[type=text], [type=email]{
     text-align: center;
 }
   
-  /* .flex-container > div {
-    margin: 1rem;
-    font-size: 3rem;
-    width: 28%;
-    text-align: left;
-  }
-   */
-
 .flex-item {
     width: 30%;
-    /* border: 1px solid black; */
 }
