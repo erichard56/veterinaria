@@ -14,13 +14,14 @@ div{
     margin-left: 1rem;
 }
 
+header {
+    background-color: lightskyblue;
+}
+
 .divheader {
-    /* width: 90%; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
-    background-color: lightskyblue;
     text-align: center;
-    /* position: fixed; */
 }
 
 h1{
@@ -28,17 +29,18 @@ h1{
     font-size: xx-large;
 }
 
-h2{
+h2 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
     margin-left: 2rem;
+    text-align: center;
 }
 
 p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
     margin-bottom: 20px;
-    /* margin: 10rem rem 1rem 1rem; */
+    text-align: center;
 }
 
 nav a{
@@ -63,33 +65,12 @@ nav li:hover{
     color:#000;
 }
             
-nav li>ul{
-    display:none;
-}
-
-nav li:hover>ul{
-    display:block;
-    position:absolute;
-    top:3rem;
-    left:0px;
-}
-
 .resumen{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
     width: 400%;
     text-align: left;
     float: left;
-}
-
-.divFooter{
-    float: auto;
-    height: 70px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: medium;
-    background-color: lightskyblue;
-    text-align: center;
-    padding-bottom: 10px;
 }
 
 .txtFooter{
@@ -99,29 +80,29 @@ nav li:hover>ul{
     margin-right: 3rem;
 }
 
-img{
+img {
     width: 209px;
     height: 140px;
 }
 
-.imglrg{
+.imglrg {
     width: 300px;
     height: auto;
 }
 
-.imgpls{
+.imgpls {
     width: 40vw;
     height: auto;
     /* margin-top: 100px; */
 }
 
-input[type=submit]{
+input[type=submit] {
     background-color: rgb(52, 155, 219);
     width: 90%;
     font-size: large;
 }
 
-input[type=text], [type=email]{
+input[type=text], [type=email] {
     width: 60%;
 }
 
