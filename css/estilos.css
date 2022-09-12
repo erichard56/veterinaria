@@ -112,7 +112,7 @@ img{
 .imgpls{
     width: 40vw;
     height: auto;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .div-form{
@@ -140,13 +140,13 @@ input[type=text], [type=email]{
     flex-wrap: wrap;
     width: 100%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
   
 .flex-item {
-    width: 40%;
+    width: 45%;
 }
-
-
 
 .grid-container {
     display: flex;
