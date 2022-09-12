@@ -188,7 +188,7 @@ input[type=text], [type=email]{
             grid-template-columns: 1fr;
             justify-content: center;
             align-items: center;
-            height: 150px;
+            height: 100px;
             /* margin-right: 2rem; */
         }
     }
