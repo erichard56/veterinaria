@@ -147,7 +147,7 @@ div textarea {
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
-        height: 100px;
+        height: 90px;
     }
 
     .div-form {
