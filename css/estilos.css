@@ -4,15 +4,9 @@
 }
 
 .imgpls {
-    width: 40vw;
+    width: 30vw;
     height: auto;
-    /* margin-top: 100px; */
 }
-
-/* .textarea {
-    box-sizing: border-box;
-    max-width: 95%;
-} */
 
 /* Celulares --> Maximo 640px */
 @media only screen and (max-width : 640px) {
