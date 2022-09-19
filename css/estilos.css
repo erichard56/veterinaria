@@ -3,6 +3,29 @@
     src: url(../fonts/DynaPuff-VariableFont_wdth,wght.ttf);
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.claseMain {
+    margin: 2rem;
+}
+
+img {
+    width: 209px;
+    height: 140px;
+}
+
+.imglrg {
+    width: 300px;
+    height: auto;
+}
 .imgpls {
     width: 45vw;
     height: auto;
