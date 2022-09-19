@@ -2,3 +2,50 @@
     font-family: "DynaPuff";
     src: url(../fonts/DynaPuff-VariableFont_wdth,wght.ttf);
 }
+
+.textarea {
+    box-sizing: border-box;
+    max-width: 95%;
+}
+
+/* Celulares --> Maximo 640px */
+@media only screen and (max-width : 640px) {
+    .div-form {
+        border: 2px solid blue;
+        border-radius: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
+        margin: 10px auto;
+        padding: 0px 10px;
+        text-align: left;
+        width: 300px;
+    }
+}
+
+/* tablet --> entre 640 y 1024 */
+@media only screen and (min-width : 640px) and (max-width: 1024px) {
+    .div-form {
+        border: 2px solid blue;
+        border-radius: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: large;
+        margin: 10px auto;
+        padding: 0px 10px;
+        text-align: left;
+        width: 400px;
+    }
+}
+    
+/* pantalla grande --> como minimo 1024 px */
+@media only screen and (min-width : 1024px) {
+    .div-form {
+        border: 2px solid blue;
+        border-radius: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: large;
+        margin: 10px auto;
+        padding: 0px 10px;
+        text-align: left;
+        width: 500px;
+    }
+}
