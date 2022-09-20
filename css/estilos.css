@@ -18,17 +18,25 @@
 }
 
 img {
-    width: 209px;
     height: 140px;
+    width: 209px;
 }
 
 .imglrg {
-    width: 300px;
     height: auto;
 }
 .imgpls {
-    width: 45vw;
     height: auto;
+    width: 45vw;
+}
+
+.patitos {
+    background-color: lightgray;
+    color: gray;
+    font-family: DynaPuff; 
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
 }
 
 /* Celulares --> Maximo 640px */
