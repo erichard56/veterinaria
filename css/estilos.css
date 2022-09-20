@@ -3,6 +3,9 @@
     src: url(../fonts/DynaPuff-VariableFont_wdth,wght.ttf);
 }
 
+body {
+    width: 90vw;
+}
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +39,7 @@ img {
     font-family: DynaPuff; 
     font-size: 2rem;
     text-align: center;
-    width: 90%;
+    width: 100%;
 }
 
 /* Celulares --> Maximo 640px */
