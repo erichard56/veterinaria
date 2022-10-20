@@ -58,6 +58,7 @@ let hd = `
             <li class="nav-item active"><a class="nav-link" href="contacto.html">Contacto</a></li>
         </ul>
     </div>
+    <div id="Jokes"><strong>{{joke}}</strong></div>
 </div>
 </nav>
 `
@@ -80,3 +81,21 @@ let ft = `
 </div>
 `
 document.getElementById("jsFooter").innerHTML = ft
+
+const url = "https://v2.jokeapi.dev/joke/Programming?lang=es&type=single"
+let app = new Vue({
+    el: '#Jokes',
+    data: {
+        joke: {}
+    },
+    created() {
+        fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            // console.log(data);
+            this.info = data;
+            this.joke = data.joke;
+        })
+        .catch(error => console.log(error));
+    }
+})
