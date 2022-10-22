@@ -82,7 +82,7 @@ let ft = `
 `
 document.getElementById("jsFooter").innerHTML = ft
 
-const url = "https://v2.jokeapi.dev/joke/Programming?lang=es&type=single"
+const url = "https://v2.jokeapi.dev/joke/Programming?lang=es"
 let app = new Vue({
     el: '#Jokes',
     data: {
@@ -92,9 +92,12 @@ let app = new Vue({
         fetch(url)
         .then(response => response.json())
         .then(data => {
-            // console.log(data);
+            console.log(data);
             this.info = data;
-            this.joke = data.joke;
+            if(this.info.type == 'single')
+                this.joke = data.joke;
+            else
+                this.joke = data.setup + " ==> " + data.delivery
         })
         .catch(error => console.log(error));
     }
