@@ -92,7 +92,7 @@ let app = new Vue({
         fetch(url)
         .then(response => response.json())
         .then(data => {
-            console.log(data);
+            // console.log(data);
             this.info = data;
             if(this.info.type == 'single')
                 this.joke = data.joke;
